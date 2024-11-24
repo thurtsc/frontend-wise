@@ -1,0 +1,14 @@
+.container {
+  background: #3a3f45;
+  max-width: 25rem;
+  border-radius: 5px;
+}
+
+.form {
+  padding: 2.5rem 1.5rem;
+  color: #eee;
+}
+
+.form button {
+  margin-top: 2rem;
+}

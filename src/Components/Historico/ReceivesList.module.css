@@ -1,0 +1,115 @@
+.container {
+  background: #2d3037;
+  color: #eee;
+  border-radius: 5px;
+  padding: 5rem;
+  min-height: 110vh;
+}
+
+.nome {
+  font-size: 2rem;
+}
+
+.subcontainer {
+  display: flex;
+  justify-content: space-around;
+  background: #3a3f45;
+  border-radius: 5px;
+  border: 0.01rem solid black;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  padding: 1.5rem;
+}
+
+.header {
+  color: #e2d8d8;
+  display: flex;
+  align-items: center;
+}
+
+.header button {
+  color: var(--color-first);
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 2rem;
+  background: transparent;
+}
+
+.header span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.totals {
+  display: flex;
+  gap: 10rem;
+}
+
+.totals div {
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.totals span {
+  font-size: 1.6rem;
+}
+
+.filters {
+  display: flex;
+  margin-bottom: 1.5rem;
+  gap: 2rem;
+}
+
+.filters button {
+  font-weight: bold;
+}
+
+.filters button.active {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-second), 0 0 0 4px var(--color-first);
+}
+
+.table-container {
+  overflow-x: auto;
+  background: #3a3f45;
+  padding: 2rem;
+  border-radius: 5px;
+  border: 0.01rem solid black;
+  font-size: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}

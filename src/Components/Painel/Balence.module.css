@@ -1,0 +1,25 @@
+.container {
+  background: #3a3f45;
+  max-width: 25rem;
+  border-radius: 5px;
+  padding: 2rem 1.5rem;
+  margin-top: 5rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}

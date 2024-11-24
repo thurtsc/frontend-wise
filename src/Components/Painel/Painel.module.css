@@ -1,0 +1,26 @@
+.container {
+  background: #2d3037;
+  color: #eee;
+  border-radius: 5px;
+  padding: 5rem;
+  min-height: 110vh;
+}
+
+.nome {
+  font-size: 2rem;
+}
+
+.conteudo {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-areas: "nome nome";
+  gap: 5rem;
+}
+
+
+@media(max-width: 850px){
+  .conteudo {
+    grid-template-areas: none;
+  }
+  
+}

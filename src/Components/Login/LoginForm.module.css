@@ -1,0 +1,44 @@
+.container {
+  max-width: 30rem;
+  padding: 1rem;
+  margin-top: 20vh;
+}
+
+.form {
+  margin: 3rem 0;
+}
+
+.cadastro {
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 22rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  transition: 0.5s;
+}
+
+.cadastro:hover {
+  box-shadow: 0 0 15px 3px var(--color-second);
+}
+
+.subtitle {
+  font-family: var(--type-second);
+  line-height: 1;
+  font-size: 2rem;
+  color: #333;
+}
+
+.cadastro p {
+  margin-top: 1rem;
+  color: var(--color-second);
+}
+
+.subtitle::after {
+  content: "";
+  display: block;
+  background: var(--color-second);
+  height: 0.15rem;
+  width: 3rem;
+  border-radius: 5px;
+}
